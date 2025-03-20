@@ -1,14 +1,23 @@
-function Myabout(){
-return <h1>this is first page</h1>
+function Myabout()
+{
+    return <h1>this is first page</h1>
 }
 export default Myabout
 
+
+
 export function Contactus()
 {
-  <h1> this is contact session</h1>
+    return <h2>this is heading two</h2>
 }
-function Mypage()
+
+export function Mypage()
 {
-return
-<div>this is heading page</div>
+    return(
+        <div className="page">
+            <h1 className="heading">this is page heading</h1>
+            <p>slddfh j sdhfjsdfn</p>
+            <section>about page section</section>
+        </div>
+    )
 }
